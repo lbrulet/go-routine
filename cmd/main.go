@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/lbrulet/go-routine/jobs"
+	"github.com/lbrulet/go-routine/pkg/jobs"
 	"log"
 	"math/rand"
 	"net/http"

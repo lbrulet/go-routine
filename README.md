@@ -8,7 +8,7 @@ Go routine is a program to handle a pool of workers with go channel.
 Start the pool with a pool of 10 workers and 10 jobs that will be created.
 Here is the output.
 ```bash
-go run main.go -workers 10 -jobs 10
+go run cmd/main.go -workers 10 -jobs 10
 020/03/26 15:53:07 [INFO] starting HTTP server on port :9009
 2020/03/26 15:53:07 [INFO] starting 10 jobs
 2020/03/26 15:53:07 [INFO] starting 10 workers
